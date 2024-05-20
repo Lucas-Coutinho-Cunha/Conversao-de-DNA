@@ -1,0 +1,87 @@
+/* FONT */
+
+@font-face {
+    font-family: Nunito;
+    src: url(../assets/Nunito-Regular.ttf);
+  }
+
+
+/* HEADER */
+
+html {
+    font-family: Nunito;
+    color: #082a13;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background: #33e670;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background-color: #5da675;
+}
+
+
+#logo {
+    width: 100px;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 40px 80px;
+    background: #7fe6a1;
+}
+
+#tabela {
+    font-size: 20px;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#dna {
+    font-size: 20px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#codons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#uff {
+    width: 200px;
+}
+
+#gib2c {
+    width: 100px;
+}
